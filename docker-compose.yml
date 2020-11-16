@@ -17,7 +17,7 @@ services:
       - clarusnet
 
   app-server:
-    image: "618730488553.dkr.ecr.us-east-1.amazonaws.com/murat/phonebook-app:latest"
+    image: 618730488553.dkr.ecr.us-east-1.amazonaws.com/murat/phonebook-app:latest
     deploy:
       mode: global
       update_config:
